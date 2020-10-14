@@ -5,6 +5,11 @@
 	<h4>{{ product.price | currency }}</h4>
 	<p>{{ product.description }}</p>
 </div>
+
+<div>
+  <button (click)="addToCart(product)">Add to Cart</button>
+</div>
+<br>
 <button [routerLink]="['']">
   <span class="material-icons" style="color: #fff;">arrow_back</span>
 </button>

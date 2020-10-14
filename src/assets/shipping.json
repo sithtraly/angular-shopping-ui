@@ -8,6 +8,10 @@
     "price": 9.99
   },
   {
+    "type": "5-Day",
+    "price": 5.99
+  },
+  {
     "type": "Postal",
     "price": 2.99
   }
